@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroPuava - Portal Agrícola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+
+    <div id="btn-menu" class="menu-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" id="btn-fechar" class="closebtn">&times;</a>
+        <div class="sidebar-content">
+            <h2>Sobre o Agro em Guarapuava</h2>
+            <p>Guarapuava é um dos maiores polos do agronegócio no Brasil, destacando-se como líder na produção de cevada e batata. Com forte base na agricultura familiar e diversificação, o município produz soja, milho, trigo, feijão e leite. A tecnologia é impulsionada pela FAPA (Fundação Agrária de Pesquisa Agropecuária).</p>
+            <hr>
+            <p><strong>Destaques:</strong> Líder em Batata e Cevada, referência em Pesquisa e Sustentabilidade.</p>
+        </div>
+    </div>
+
+    <header>
+        <h1 class="titulo-principal">Agro<span>Puava</span></h1>
+        <p>Tecnologia e Soluções para o Campo</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2 class="sessao-titulo">Soluções para o Agro</h2>
+            
+            <div class="solucao-item">
+                <div class="solucao-texto">
+                    <h3>1. Tecnologia e Precisão</h3>
+                    <p>Uso de sensores e automação para otimizar insumos. O <strong>Inovação Agro 2025</strong> focou em conectar produtores a novas tecnologias e big data para aumentar a eficiência no campo.</p>
+                </div>
+                <div class="solucao-imagem">
+                    <img src="https://parana-centro.nyc3.cdn.digitaloceanspaces.com/images/image_656e4ac1ece531.55844523.webp" alt="Colheitadeira moderna trabalhando em campo de trigo sob céu azul.">
+                </div>
+            </div>
+
+            <div class="solucao-item">
+                <div class="solucao-texto">
+                    <h3>2. Sustentabilidade e Bioinsumos</h3>
+                    <p>Foco em Agricultura Regenerativa e uso de bioinsumos para a saúde do solo. Projetos regionais em Guarapuava buscam criar centros de estudos para alternativas rentáveis e ecológicas.</p>
+                </div>
+                <div class="solucao-imagem">
+                    <img src="https://novocantu.com.br/images/noticias/165318/5ead66102d11590b191c25de7ab40929.jpg" alt="Trator e colheitadeira operando juntos em sistema de agricultura regenerativa em Guarapuava.">
+                </div>
+            </div>
+
+            <div class="solucao-item">
+                <div class="solucao-texto">
+                    <h3>3. Diversificação e LPF</h3>
+                    <p>O sistema <strong>Lavoura-Pecuária-Floresta (LPF)</strong> e a diversificação de culturas como trigo e cevada ajudam a melhorar a resiliência do solo e a rentabilidade da propriedade.</p>
+                </div>
+                <div class="solucao-imagem">
+                    <img src="https://assets.revistacultivar.com.br/05f6d150-8023-4cfd-9d6a-f35e427bbb7d.jpg" alt="Agrária">
+                </div>
+            </div>
+        </section>
+
+        <div class="grid-dois">
+            <div class="card">
+                <h3>🌤️ Clima (SIMEPAR)</h3>
+                <p>Acompanhe a previsão do tempo para Guarapuava e região no site oficial do Simepar.</p>
+                <a href="https://www.simepar.br/simepar/page_map_view/MAPA_SIMEPAR_PREVISAO_MUNICIPIOS" target="_blank" class="btn">Acessar Simepar</a>
+            </div>
+
+            <div class="card">
+                <h3>🗓️ Época de Plantio</h3>
+                <select id="select-plantio">
+                    <option value="">Selecione o período</option>
+                    <option value="verao">Safra de Verão (Out - Dez)</option>
+                    <option value="inverno">Safra de Inverno (Mai - Jul)</option>
+                </select>
+                <p id="txt-plantio" class="resultado-foco"></p>
+            </div>
+        </div>
+
+        <section class="card quiz-box">
+            <h3>🧠 Desafio AgroPuava (5 Perguntas)</h3>
+            <div id="quiz-container">
+                <div id="pergunta-atual">
+                    <p id="texto-pergunta">Carregando pergunta...</p>
+                    <div id="opcoes-respostas" class="quiz-botoes"></div>
+                </div>
+                <p id="quiz-status" style="margin-top: 15px; font-size: 0.9rem; color: #666;"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container-footer">
+            <p><strong>Links Oficiais:</strong></p>
+            <a href="https://guarapuava.pr.gov.br/administracao-direta/agricultura/" target="_blank">Secretaria Municipal de Agricultura de Guarapuava</a>
+            <p style="margin-top: 15px;">&copy; 2026 AgroPuava - O Futuro do Campo</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.userway.org/widget.js" data-account="IfoNVqBNzP"></script>
+
+     <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  
+</body>
+</html>
