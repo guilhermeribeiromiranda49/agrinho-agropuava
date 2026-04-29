@@ -33,7 +33,7 @@ O projeto prioriza a inclusão digital através de:
 
 ---
 ##  Como visualizar
-O projeto está disponível através do link: https://github.com/guilhermeribeiromiranda49/agrinho-agropuava
+O projeto está disponível através do link: https://guilhermeribeiromiranda49.github.io/agrinho-agropuava/
 
 ---
 **Desenvolvido para o Concurso Agrinho 2026 - Categoria Programação.**
